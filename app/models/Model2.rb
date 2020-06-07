@@ -11,4 +11,8 @@ class Teacher
   def self.all
     @@all
   end
+<<<<<<< HEAD
 end
+=======
+end
+>>>>>>> 66074a9aeaa5d9a4672fa20333055fca3ab6f47f
