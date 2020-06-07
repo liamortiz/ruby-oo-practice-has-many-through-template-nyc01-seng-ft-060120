@@ -1,5 +1,14 @@
-#class for Model2 goes here
-#Feel free to change the name of the class
-class Model2
+class Teacher
+  attr_reader :full_name, :grade
+  @@all = []
 
+  def initialize(full_name, grade)
+    @full_name = full_name
+    @grade = grade
+    @@all << self
+  end
+
+  def self.all
+    @@all
+  end
 end
